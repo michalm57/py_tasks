@@ -5,3 +5,8 @@ print("Hello World!")
 z = 1
 z += 1
 
+#string Interpolation
+placeName = "Jungle"
+text = f"Welcome to the {placeName}"
+print(text)
+
