@@ -56,4 +56,24 @@ print(type(a))
 print(type(c))
 print(type(d))
 
+#conditional instruction
+age = int(input("How old are you? "))
+
+if(age >= 18):
+    print("Adult")
+else:
+    print("Child")
+
+
+light = input("Choose color: (green, yellow, red)? ")
+
+if light == 'green':
+    print('go')
+elif light == 'yellow':
+    print('get ready')
+elif light == 'red':
+    print('stop')
+else:
+    print('wrong color')
+
 
